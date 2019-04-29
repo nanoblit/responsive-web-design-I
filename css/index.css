@@ -79,8 +79,13 @@ h1, h2, h3, h4, h5 {
 @media(max-width: 800px) {
 	#nav-div {
 		flex-direction: column-reverse;
-		align-items: center;
-		justify-content: center;
+		margin-top: 40px;
+	}
+}
+
+@media(max-width: 500px) {
+	#nav-div a img {
+		margin-bottom: -20px;
 	}
 }
 
@@ -124,11 +129,9 @@ nav a {
 		padding: 20px 0;
 		border-bottom: 1px solid black;
 	}
-}
 
-@media(max-width: 800px) {
-	#nav-div {
-		margin-top: 40px;
+	nav a:first-of-type {
+		border-top: 1px solid black;
 	}
 }
 
