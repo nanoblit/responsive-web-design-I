@@ -271,6 +271,14 @@ footer {
 	flex-wrap: wrap;
 }
 
+@media(max-width: 1000px) {
+	#cards {
+		justify-content: center;
+		flex-direction: column;
+		align-content: center;
+	}
+}
+
 @media(max-width: 800px) {
 	#cards {
 		justify-content: center;
@@ -285,7 +293,13 @@ footer {
 	margin: 17px 0;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 1000px) {
+	#cards section {
+		width: 600px;
+	}
+}
+
+@media(max-width: 800px) {
 	#cards section {
 		width: 100%;
 	}
